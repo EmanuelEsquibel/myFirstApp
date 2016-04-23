@@ -1,0 +1,98 @@
+html {
+	overflow-x:hidden;
+}
+font{
+	color:black;
+}
+#titulo{
+	position:absolute;
+	margin-top:-30px;
+	color:white;
+	margin-left:5px;
+}
+.general{
+	width:100%;
+	overflow:hidden;
+	border-color:149583;
+	border-style: solid;
+	border-top-width:30px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-bottom-width:3px;
+	height:95%;
+	overflow:auto;
+	margin-left:-3px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#divizquierda{
+	float:left;
+	width:33.3%;
+	height:400px;
+}
+.inputs{
+	display:block;
+	width:80%;
+  font-weight:bold;
+  color:white;
+	background:#149583;
+  border:0px;
+	height:20px;
+	min-width:150px;
+	max-width: 200px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#divcentro{
+	float:left;
+	width:33.3%;
+	height:400px;
+}
+#divderecha{
+	float:left;
+	width:33.3%;
+	height:400px;
+}
+.centrado{
+	margin-top:40px;
+	height: 400px;
+}
+.submit{
+	width:200px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#divsubmit{
+	margin: 0 auto;
+	width:200px;
+	height:60px;
+}
+.inputfecha{
+	width:61px;
+	height:20px;
+	color:gray;
+	font-weight:bold;
+  color:white;
+	background:#638cb5;
+  border:0px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+@media only screen and (max-width: 800px) {
+	.general{
+		margin-left:0%;
+	}
+	.submit{
+		margin-top:-90px;
+	}
+	#divizquierda{
+		width:100%;
+		}
+	#divcentro{
+		width:100%;
+		}
+}

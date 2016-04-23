@@ -1,0 +1,28 @@
+html{
+}
+p{
+	text-align: center;
+	font: small-caps 100%/200% serif;
+	/*font-size: 62.5%;*/
+}
+#keepSession{
+	background-color: #149583;
+	width: 100%;
+}
+#seccion{
+  background-color: #149583;
+}
+#titulo{
+	margin: 0 auto;
+  text-align: center;
+  background-color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+div{
+  background-color: #149583;
+}
+#ejemplo1{
+  visibility: hidden;
+}

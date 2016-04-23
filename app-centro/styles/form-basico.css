@@ -1,0 +1,75 @@
+/*ESTILOS PARA FORM CANTIDAD E IMPORTE */
+
+body{
+	background-color:;
+}
+html {
+overflow-x:hidden;
+}
+font{
+	color:black;
+}
+
+#titulo{
+	 position:absolute;
+	 margin-top:-25px;
+	 margin-left: 10px;
+	 color:white;
+}
+
+#general{
+	background-color:;
+	width:100%;
+	overflow:hidden;
+	border-color:149583;
+	border-style: solid;
+	border-top-width:30px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-bottom-width:3px;
+	height:90%;
+	overflow:auto;
+	margin-left:-3px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+.inputs{
+	display:inline;
+	width:198px;
+  font-weight:bold;
+	background:#149583;
+  color:white;
+  border:0px;
+	height:20px;
+	margin: 0 auto;
+	min-width:150px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+
+
+#divcentrado{
+	height:95%;
+	background-color:;
+	width:100%;
+	border-color:149583;
+	border-style: solid;
+	border-top-width:30px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-bottom-width:3px;
+}
+
+.submit{
+	width:200px;
+	margin: 0 auto;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+
+@media only screen and (max-width: 800px) {
+}

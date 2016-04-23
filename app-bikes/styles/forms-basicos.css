@@ -1,0 +1,48 @@
+/*ESTILOS PARA FORM VENTA */
+html{
+	overflow-x:hidden;
+}
+font{
+	color:black;
+}
+#titulo{
+	 position:absolute;
+	 margin-top:-30px;
+	 color:white;
+	 margin-left:5px;
+}
+.inputs{
+	display:block;
+	width:198px;
+  font-weight:bold;
+	background:#149583;
+  color:white;
+  border:0px;
+	height:20px;
+	margin: 0 auto;
+	min-width:150px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+#divcentrado{
+	height:95%;
+	width:100%;
+	border-color:149583;
+	border-style: solid;
+	border-top-width:30px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-bottom-width:3px;
+	overflow:auto;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	margin-left:-3px;
+}
+.submit{
+	width:200px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}

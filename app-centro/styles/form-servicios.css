@@ -1,0 +1,213 @@
+/*ESTILOS PARA FORM VENTA */
+font{
+	color:black;
+}
+#titulo{
+	 position:absolute;
+	 margin-top:-25px;
+	 margin-left: 10px;
+	 color:white;
+}
+.inputs{
+	display:block;
+	width:30%;
+	font-weight:bold;
+	background:#149583;
+	color:white;
+	border:0px;
+	height:20px;
+	margin: 0 auto;
+	min-width:150px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+.area{
+	font-weight:bold;
+	background:#149583;
+	color:white;
+	border:0px;
+	margin: 0 auto;
+	min-width:50px;
+	height: 100px;
+	width: 70%;
+}
+#obs, #det{
+	margin-left: 30%;
+}
+.inputs-fecha{
+	background-color:#149583;
+	width:38px;
+	border:0px;
+	height:24px;
+	font-weight:bold;
+	color:white;
+	background:#149583;
+	border:0px;
+	height:26px;
+	margin-top: 47px;
+	display:inline;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+
+#general{
+	width:100%;
+	overflow:hidden;
+	border-color:149583;
+	border-style: solid;
+	border-top-width:30px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-bottom-width:3px;
+	height:95%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-left:-3px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	//background-color:#F0F0F0;
+}
+#kilometros{
+	background-color:;
+	width:50%;
+	float: right;
+	margin: 0 auto;
+	height: 300px;
+}
+.submit{
+	width:200px;
+	margin: 0 auto;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+
+input[type=button]{
+	width:100px;
+	margin: 0 auto;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+
+table tr td{
+}
+
+table input{
+	width:70px;
+	background-color: F0F0F0;
+	border-width:0px;
+}
+
+th{
+}
+
+#cabecera{
+	width: 99%;
+	background-color: ;
+}
+
+#div-fecha{
+	float:right;
+	margin-top: -35px;
+	margin-right: 20px;
+}
+
+#buscar-vehiculo{
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#buscar-left{
+	background-color: ;
+	width: 50%;
+	margin-right: -10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#buscar-right{
+	background-color: ;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#tabla{
+	background-color: #F0F0F0;
+	height: 5px;
+}
+#tabla-buscar{
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#ingresar-tarea{
+	width: 100%;
+}
+
+#mostrar-tareas{
+	width: 80%;
+	overflow-y: auto;
+	height: 200px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+#obs-det{
+	display:inline;
+ 	float: left;
+	width: 50%;
+	height: 300px;
+}
+hr{
+	width: 95%;
+}
+#iframe1{
+	width: 100%;
+	height: 100px;
+	border-style: solid;
+	border-color: #149583;
+	border-width:0px;
+}
+
+
+/* TABLA ADAPTATIVA 1*/
+    h2 {font-size:36px;margin:0 0 10px 0}
+    p {margin:0 0 10px 0}
+    table.width200,table.rwd_auto {border:0px solid #ccc;width:100%;margin:0 0 0px 0;border-color:149583;}
+        .width200 th,.rwd_auto th {background:659cb1;padding:0px;text-align:center;border-width:0px;}
+
+        .width200 td,.rwd_auto td {border-bottom:1px solid #ccc;padding:5px;text-align:center;background-color:149583;}
+
+        .width200 tr:last-child td, .rwd_auto tr:last-child td{border:0;background:659cb1;}
+    .rwd {width:100%;overflow:auto;}
+        .rwd table.rwd_auto {width:auto;min-width:100%}
+            .rwd_auto th,.rwd_auto td {white-space: nowrap;}
+@media only screen and (max-width: 760px), (min-width: 768px) and (max-width: 1024px)
+    {
+
+        table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr { display: block; }
+
+        .width200 thead tr { position: absolute;top: -9999px;left: -9999px; }
+
+        .width200 tr { border: 1px solid #ccc; }
+
+        .width200 td { border: none;border-bottom: 1px solid #ccc; position: relative;padding-left: 50%;text-align:left }
+
+        .width200 td:before {  position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+
+        .width200 td:nth-of-type(1):before { content: "Nombre pieza"; }
+        .width200 td:nth-of-type(2):before { content: "Valor pieza"; }
+        .width200 td:nth-of-type(3):before { content: "Cantidad"; }
+        .width200 td:nth-of-type(4):before { content: "Valor total"; }
+
+        .descarto {display:none;}
+        .fontsize {font-size:10px}
+    }
+/*Termina */

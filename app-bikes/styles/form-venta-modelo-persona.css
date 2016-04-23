@@ -1,0 +1,198 @@
+/*ESTILOS PARA FORM VENTA */
+body{
+	background-color:;
+}
+html {
+	overflow-x:hidden;
+}
+font{
+	color:black;
+}
+#titulo{
+	 position:absolute;
+	 margin-top:-30px;
+	 color:white;
+	 margin-left:5px;
+}
+.general{
+	overflow:auto;
+	width:100%;
+	height:95%;
+	margin-bottom: 0%;
+	margin-left:-3px;
+	border-color:149583;
+	border-style: solid;
+	border-top-width:30px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-bottom-width:3px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+	}
+.inputs{
+	display:block;
+	width:80%;
+	min-width:90px;
+	max-width:200px;
+  font-weight:bold;
+  color:white;
+	background:#149583;
+  border:0px;
+	height:20px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+.select{
+	display:block;
+	width:80%;
+	min-width:90px;
+	max-width:200px;
+	font-weight:bold;
+  color:white;
+	background:#149583;
+  border:0px;
+	height:20px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+.inputfechapersona{
+	width:61px;
+	height:20px;
+	color:gray;
+	font-weight:bold;
+    color:white;
+	background:#149583;
+    border:0px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+#divizquierda{
+	width:33%;
+	float:left;
+	padding-bottom:-12px;
+	padding-top:-20px;
+	height:400px;
+}
+#divcentro{
+	width:33%;
+	float:left;
+	padding-bottom:-12px;
+	height:400px;
+}
+#divderecha{
+	width:33%;
+	float:left;
+	padding-bottom:-12px;
+	height:400px;
+}
+label{
+	background-color:149583;
+	padding-right:15px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+#label0k{
+	background-color:149583;
+	padding:5px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+#divcheckbox{
+	height:240px;
+	width:170px;
+	margin:0 auto;
+}
+
+#divfecha{
+	display:inline;
+	float:right;
+	margin: -46px 15% 0px 0px;
+}
+.inputsfecha{
+	width:40px;
+	color:gray;
+	font-weight:bold;
+  color:white;
+	background:#149583;
+  border:0px;
+	height:26px;
+	margin-top: 47px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+	}
+.inputfoto{
+	width:90px;
+	margin-top:8px;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+.submitvehiculo{
+	width:160px;
+	color:black;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+.submit{
+	width:160px;
+	color:black;
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+}
+#divsubmit{
+	background-color:;
+	margin: 0 auto;
+	width:155px;
+	height:60px;
+}
+/*Modifica la apariencia de los checkboxs */
+ .check{
+	 -moz-appearance: none;
+}
+hr{
+	color:149583;
+}
+label{
+	color:white;
+}
+@media only screen and (max-width: 800px) {
+	.general{
+		width:100%;
+		margin-left:-0px;
+		margin-right:0px;
+		margin-bottom:-1%;
+	}
+	.submitvehiculo{
+		margin-top:-90px;
+		}
+	.submit{
+		margin-top:-60px;
+	}
+	#divfecha{
+		margin-top:-20px;
+		margin-right: 1%;
+		}
+	#divizquierda{
+		width:100%;
+		margin-top: 0px;
+		}
+	#divcentro{
+		width:100%;
+		margin-top: 0px;
+		}
+	#divderecha{
+		width:100%;
+		margin-top: 0px;
+		}
+}

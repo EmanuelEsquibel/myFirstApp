@@ -1,0 +1,48 @@
+html{
+	overflow:hidden;
+	background-color:149583;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body{
+	color:white;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+.box{
+	/*border-style:solid;
+	border-width:1px;
+	border-left-width:0px;
+	border-color:white;
+	*/
+	margin-top:-16px;
+}
+input{
+	border-radius:5px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:5px;
+	display:block;
+	color:gray;
+}
+
+hr{
+	color:black;
+}
+
+/*FOOTER*/
+.footer{
+display: table-row;
+font-size:60%;
+}
+ footer {
+   background: gray; height: 30px;
+ }
+#datos{
+	height: 165px;
+}
